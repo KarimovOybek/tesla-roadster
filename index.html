@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="libs/bootstrap.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Tesla Roadster</title>
+</head>
+<body>
+  <header class="header ">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img class="header__logo" src="img/svg/лого white 1.svg" alt=""></a>
+        <button class="navbar-toggler burger__box" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fal fa-bars menu__burger"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav header__list ms-auto">
+            <li class="nav-item">
+              <a class="nav-link header__link" href="#">Узнать цену</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header__link" href="#">Характеристики</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header__link" href="#">Новости</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header__link" href="#">Тест Драйв</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header__link" href="tel: +998 99 914 76 71">Контакты</a>
+            </li>            
+          </ul>
+        </div>
+        <div class="header__content ">
+          <h1 class="header__title">Roadster</h1>
+          <p class="header__txt ">Самый быстрый автомобиль в мире, с рекордным ускорением, дальностью и производительностью.</p>
+          <a href="" class="header__btn all-btn">Хочу тест драйв</a>
+        </div>       
+        
+      </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide tesla__slide" data-bs-ride="carousel">    
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/bg1.jpg" class="d-block w-100 tesla__img" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/header__bg3.jpg" class="d-block w-100 tesla__img" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/bg3.jpg" class="d-block w-100 tesla__img" alt="...">
+        </div>
+      </div>
+      <div class="carousel-indicators d-flex justify-content-start">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="carousel__dot active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel__dot" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="carousel__dot" aria-label="Slide 3"></button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="about__tesla">
+      <div class="container">
+        <div class="about__tesla-box row">
+          <div class="about__tesla-desc col-4 ">
+            <p class="tesla__engine">Двигатель</p>
+            <h3 class="tesla__numerous">2,1 <span class="sec__span">сек</span></h3>
+            <p class="tesla__txt">разгон до 100 км</p>
+          </div>
+          <div class="about__tesla-desc col-4 ">
+            <p class="tesla__engine">Батарея</p>
+            <h3 class="tesla__numerous">1000 <span class="sec__span">км</span></h3>
+            <p class="tesla__txt">запас хода</p>
+          </div>
+          <div class="about__tesla-desc col-4  ">
+            <p class="tesla__engine">Скорость</p>
+            <h3 class="tesla__numerous d-flex justify-content-center" >400 
+              <div class="numerous__content d-flex flex-column justify-content-between">
+                <span class="sec__plus">+</span>
+                <span class="sec__span">сек</span>
+              </div>
+              </h3>
+            <p class="tesla__txt">макс скорость</p>
+          </div>
+        </div>
+        <div class="video row">
+          <video class="video__tesla col-12" src="video/tesla.mp4" autoplay muted loop></video>
+        </div>        
+      </div>
+    </section>
+    <section class="characters__tesla d-flex justify-content-center"> 
+      <div class="container ">
+        <div class="character__desc extra d-flex justify-content-between align-items-center">
+          <div class="character__box d-flex flex-column ">
+            <h3 class="speed">Скорость</h3>
+            <p class="about__speed1 content__speed ">Самый быстроразгоняющийся серийный автомобиль из когда-либо созданных. <br><br>
+              <span class="extra__txt"> When the 2021 Tesla Roadster was unveiled as a concept in November 2017, Musk touted some pie-in-the-sky performance numbers for this car, including a 60-mph time of 1.9 seconds, a top speed of more than 250 mph, and a quarter-mile time of just 8.8 seconds.</span>
+            </p>             
+          </div>
+          <img src="img/rectangel_1.png" alt="" class="mini__img-card">
+        </div>
+        <div class="character__desc d-flex justify-content-between align-items-center">
+          <img src="img/rectangel_2.png" alt="" class="mini__img-card">
+          <div class="character__box d-flex flex-column ">
+            <h3 class="speed extra__speed">Преимущества</h3>
+            <p class="about__speed">Самый быстроразгоняющийся серийный автомобиль из когда-либо созданных. <br><br>
+              <span class="extra__txt"> When the 2021 Tesla Roadster was unveiled as a concept in November 2017, Musk touted some pie-in-the-sky performance numbers for this car, including a 60-mph time of 1.9 seconds, a top speed of more than 250 mph, and a quarter-mile time of just 8.8 seconds.</span>
+            </p>             
+          </div>
+        </div>
+        <img src="img/saloon-img.png" alt="" class="character__desc-img ">
+
+        <div class="desc__content row">
+          <div class="desc__box col-lg-6 d-flex justify-content-between">
+            <h3 class="number__about">01</h3>
+            <p class="about__txt">
+              Новый родстер был разработан бывшим дизайнером Mazda Францем фон Хольцхаузеном. 
+              Имеет съёмную стеклянную крышу и кузов с двумя передними сиденьями плюс два небольших сиденья сзади.</p>
+          </div>
+          <div class="desc__box col-lg-6 d-flex justify-content-between">
+            <h3 class="number__about">02</h3>
+            <p class="about__txt">              
+              Родстер имеет три электродвигателя, один спереди и два сзади, 
+              Они обеспечивают полный привод, а также систему адресного распределения крутящего момента для лучшего прохождения поворотов.</p>
+            </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer ">
+    <div class="container d-flex flex-column align-items-center justify-content-lg-between ">
+      <a href="#" class="footer__btn all-btn ">Хочу тест драйв</a>
+      <p class="footer__txt  ">Tesla © 2020  |  Privacy & Legal  |  Contact  |  Careers  |  Get Newsletter  |  Forums  |  Locations</p>
+    </div>
+  </footer>
+
+
+
+ <script src="libs/bootstrap.js"></script>
+</body>
+</html>
